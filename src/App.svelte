@@ -1,6 +1,6 @@
 <script>
-	import { counterStore } from "./counter.js";
-	let num = 0;
+  import { counterStore } from "./counter.js";
+  let num = 0;
 </script>
 
 <button on:click={() => counterStore.sub(1)}>-1</button>
