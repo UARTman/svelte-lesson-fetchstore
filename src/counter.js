@@ -66,4 +66,5 @@ const newCounterStore = () => {
   };
 };
 // Создаем единственное хранилище, которое можно импортировать.
+
 export let counterStore = newCounterStore();
